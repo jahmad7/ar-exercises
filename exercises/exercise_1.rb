@@ -11,7 +11,11 @@ burnaby = Store.new do |store|
     store.mens_apparel = true
     store.womens_apparel = true
 end
-burnaby.save
+if (not burnaby.valid?)
+    puts burnaby.errors.messages
+elsif 
+    burnaby.save
+end
 
 richmond = Store.new do |store|
     store.name = "Richmond"

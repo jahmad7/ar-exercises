@@ -10,7 +10,7 @@ puts "----------"
 
 # Your code goes here ...
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employees.create(first_name: "Jo", last_name: "Anna", hourly_rate: 5)
+@store1.employees.create(first_name: "Jo", last_name: "Anna", hourly_rate: 40)
 @store1.employees.create(first_name: "Alex", last_name: "Paul", hourly_rate: 100)
 @store1.employees.create(first_name: "Junaid", last_name: "Ahmad", hourly_rate: 70)
 
